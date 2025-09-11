@@ -35,6 +35,7 @@ void WithdrawMoney(int amount)
 {
     std::unique_lock<std::mutex> ul(mtx);
     // Wait until balance is sufficient
+    //While usinf conditiona variable always use unique_lock because it can be locked and unlocked multiple times. 
     cv.wait(ul, []{ return balance >= 100; }); // Lambda function to check the condition
     if (balance > amount)
     {

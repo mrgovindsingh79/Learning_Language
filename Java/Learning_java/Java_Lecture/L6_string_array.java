@@ -25,7 +25,6 @@ public class L6_string_array {
         sb.append(" Singh");
         System.out.println(sb);
 
-
         System.out.println("String at:  "+sb.charAt(4));
 
         //Array

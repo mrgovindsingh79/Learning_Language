@@ -11,6 +11,7 @@ class Keyboard{
     }
     
 }
+
 class AdvKeyboard extends Keyboard{
     int backlight;
     String type;
@@ -22,7 +23,6 @@ class AdvKeyboard extends Keyboard{
         System.out.println("Keyboard thrown and hit hard");
     }
 }
-
 
 public class L5_Polymorphism {
     public static void main(String[] args) {

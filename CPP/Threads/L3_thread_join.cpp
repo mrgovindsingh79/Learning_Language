@@ -5,7 +5,8 @@
 #include<vector>
 #include<iostream>
 
-//join(): It is used to wait for a thread to finish its execution. When you call join() on a thread, the calling thread (usually the main thread) will block until the thread on which join() was called has completed its task. This is useful when you want to ensure that a thread has finished before proceeding with further operations in the main thread.
+//join(): It is used to wait for a thread to finish its execution. When you call join() on a thread, the calling thread (usually the main thread) will block until the thread on which join() was called has completed its task. 
+//This is useful when you want to ensure that a thread has finished before proceeding with further operations in the main thread.
 void run1(int n){
     for(int i=0;i<n;i++)
     std::cout<<"Hello from run1 "<<std::endl;

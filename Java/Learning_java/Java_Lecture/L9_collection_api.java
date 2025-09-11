@@ -22,8 +22,6 @@ public class L9_collection_api {
         nums.sort(Comparator.reverseOrder());
         System.out.println(nums);
 
-
-
         HashSet<Integer> set = new HashSet<Integer>();
         set.add(1);
         set.add(2);

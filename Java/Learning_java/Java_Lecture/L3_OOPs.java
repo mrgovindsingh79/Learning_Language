@@ -9,7 +9,6 @@ class Keyboard{
     public void throwit(){
         System.out.println("Keyboard thrown");
     }
-    
 }
 class AdvKeyboard extends Keyboard{
     int backlight;
@@ -30,7 +29,6 @@ public class L3_OOPs {
         keyborad_obj.color = "Black";
         keyborad_obj.pressed();
         keyborad_obj.throwit();
-
 
         //Inheritance
         System.out.println("Inheritance:");
